@@ -1,5 +1,5 @@
-import axios from 'axios'
+// import axios from 'axios'
 
-export const http = axios.create({
-    baseURL:'https://parallelum.com.br/fipe/api/v1/carros'
-})
+// export const http = axios.create({
+//     baseURL:'https://parallelum.com.br/fipe/api/v1/carros'
+// })

@@ -2,7 +2,7 @@
   "name": "tabela-fip",
   "version": "0.1.0",
   "private": false,
-  "author":"Oséias Medeiros",
+  "author": "Oséias Medeiros",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,7 +14,8 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "jquery": "^3.5.1",
     "vue": "^2.5.17",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.0.0-beta.53",

@@ -1,11 +1,11 @@
-import { http } from "./config";
+// import { http } from "./config";
 
-export default {
-  listarMarcas: () => {
-    return http.get("marcas");
-  },
+// export default {
+//   listarMarcas: () => {
+//     return http.get("/marcas");
+//   },
 
-  listarModelos: () => {
-    return http.get(`/modelos`);
-  },
-};
+//   listarModelos: () => {
+//     return http.get(`/marcas/:id/modelos`);
+//   },
+// };
