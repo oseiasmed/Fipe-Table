@@ -16,6 +16,16 @@ import TemplateTable from "./components/TemplateTable";
 import Footer from "./components/Footer";
 
 export default {
+  data(){
+    return{
+    }
+  },
+ methods: {
+    formatPrice(value) {
+        let val = (value/1).toFixed(0).replace("-")
+        return val.toString().replace(/\B(?=(\d{2})+(?!\d))/g, ",")
+    }
+},
   components: {
     MarkTable,
     TemplateTable,

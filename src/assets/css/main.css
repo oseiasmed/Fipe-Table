@@ -88,4 +88,7 @@
       font-weight: lighter;
       font-size: 1rem;
     }
+    .td-size{
+      width:50%;
+    }
   }
