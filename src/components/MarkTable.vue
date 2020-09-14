@@ -1,8 +1,7 @@
 <template>
 <div>
  <h3 class="mt-3 mb-3 ml-4">Veículos</h3>
- 
-    <b-card-group class="new-container">
+ <b-card-group class="new-container">
       <b-card class="shadow colorize" header="Marcas" header-tag="header">
         <table id="fip" class="mt-3">
           <tr>
@@ -33,8 +32,8 @@ export default {
     this.getMarks();
   },
   methods: {
-    openSecondTable(){
-      bus.$emit('open')
+    openSecondTable() {
+      bus.$emit("open");
     },
     getMarks: function() {
       axios
